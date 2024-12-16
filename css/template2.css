@@ -1427,23 +1427,3 @@ main.content header.page-title h1 {
 	transition: opacity 0.8s;
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	transform: translate3d(0,0,0);
-
-.icon1 {
-    background-image: url('https://via.placeholder.com/50');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-}
-}
-.icon2 {
-    background-image: url('../images/icon2.png');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-}
-.icon3 {
-    background-image: url('../images/icon3.png');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-}
