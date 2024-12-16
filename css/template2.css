@@ -484,7 +484,7 @@ section.boxes [class*="box"] .icon1::after {
     width: 270px;
     height: 203px;
     display: block;
-            background: url(https://primary.jwwb.nl/public/x/v/s/temp-popvklbceevvobwioebl/icon1-standard.png)no-repeat center;
+            background: url(https://raw.githubusercontent.com/LouisFGames/my-website/main/images/icon1.png)no-repeat center;
     opacity: 1;
     transition: opacity .4s;
 }
@@ -495,13 +495,13 @@ section.boxes [class*="box"]:hover .icon {
     border: 10px solid #000;
 }
 section.boxes [class*="box"]:hover .icon1::after{
- background: url(file:///C:/Users/louis/Desktop/html-website-/html-1/images/icon1-h.png)no-repeat center;
+ background: url(https://raw.githubusercontent.com/LouisFGames/my-website/main/images/icon1-h.png)no-repeat center;
 }
 section.boxes [class*="box"]:hover .icon2::after{
- background: url(file:///C:/Users/louis/Desktop/html-website-/html-1/images/icon2-h.png)no-repeat center;
+ background: url(https://raw.githubusercontent.com/LouisFGames/my-website/main/images/icon2-h.png)no-repeat center;
 }
 section.boxes [class*="box"]:hover .icon3::after{
- background: url(file:///C:/Users/louis/Desktop/html-website-/html-1/images/icon3-h.png)no-repeat center;
+ background: url(https://raw.githubusercontent.com/LouisFGames/my-website/main/images/icon3-h.png)no-repeat center;
 }
 
 section.boxes [class*="box"] .icon2::after {
@@ -513,7 +513,7 @@ section.boxes [class*="box"] .icon2::after {
 	width: 270px;
 	height: 203px;
 	display: block;
-            background: url(file:///C:/Users/louis/Desktop/html-website-/html-1/images/icon2.png)no-repeat center;
+            background: url(https://raw.githubusercontent.com/LouisFGames/my-website/main/images/icon2.png)no-repeat center;
 	opacity: 1;
 	transition: opacity .4s;
 }
@@ -527,7 +527,7 @@ section.boxes [class*="box"] .icon3::after {
 	width: 270px;
 	height: 203px;
 	display: block;
-	    background: url(file:///C:/Users/louis/Desktop/html-website-/html-1/images/icon3.png)no-repeat center;
+	    background: url(https://raw.githubusercontent.com/LouisFGames/my-website/main/images/icon3.png)no-repeat center;
 	opacity: 1;
 	transition: opacity .4s;
 }
