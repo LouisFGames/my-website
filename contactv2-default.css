@@ -1,0 +1,49 @@
+.contactForm,.contactForm .contact-field-item .contact-field-element{position:relative}
+.contactForm .contact-field-item .contact-field-element::after,.contactForm .contact-field-item::after{content:'';clear:both;display:block}
+.contactForm.submitted .contact-field-item .contact-field-element .form-field:invalid,.contactForm.submitted .gdpr_policy input:invalid{box-shadow:0 2px 0 0 #e00}
+.contactForm .contact-field-error{color:#e00;font-weight:700;font-size:85%}
+.contactForm .contact-field-legend{font-weight:700;border-bottom:2px solid #ddd;margin:20px 0 10px;padding:0 0 5px}
+.contactForm fieldset:first-of-type .contact-field-legend{display:none}
+.contactForm .contact-field-legend.contact-field-legend-first{margin-top:0}
+.contactForm .contact-field-item{position:relative;clear:both;margin-bottom:10px}
+.contactForm .contact-field-item .contact-field-label{margin:0;padding:0;font-weight:700}
+.contactForm .contact-field-item .contact-field-label .contact-field-req-symbol{color:#e00}
+.contactForm .contact-field-item .contact-field-element .fields {position: relative;}
+.contactForm .contact-field-item .contact-field-element .fields .tooltip {visibility: hidden; width: 120px; background-color: #555; color: #fff; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; bottom: 125%; left: 50%; margin-left: -60px; opacity: 0; transition: opacity 0.3s;}
+.contactForm .contact-field-item .contact-field-element .fields .tooltip::after {content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; border-color: #555 transparent transparent transparent;}
+.contactForm .contact-field-item .contact-field-element .fields:hover .tooltip {visibility: visible; opacity: 1;}
+.contactForm .contact-field-item .contact-field-element .two-column{width:50%;float:left}
+.contactForm .contact-field-item .contact-field-element .two-column.top-space{margin-top:10px}
+.contactForm .contact-field-item .contact-field-element .two-column:nth-child(odd){padding-right:5px}
+.contactForm .contact-field-item .contact-field-element .two-column:nth-child(even){padding-left:5px}
+.contactForm .contact-field-item .contact-field-element .form-field{display:block;width:100%;margin:0;padding:5px 10px;border:2px solid #ddd;background-color:#fff;transition:border-color .4s,box-shadow .4s;line-height: initial;color:#333;}
+.contactForm .contact-field-item .contact-field-element .form-field:focus{border-color:#bbb}
+.contactForm .contact-field-item .contact-field-element textarea.form-field{height:100px;resize:vertical}
+.contactForm .contact-field-item .contact-field-element ul.list-checkbox-wrap,.contactForm .contact-field-item .contact-field-element ul.list-checkbox-wrap li.contact-field-option,.contactForm .contact-field-item .contact-field-element ul.list-radio-wrap,.contactForm .contact-field-item .contact-field-element ul.list-radio-wrap li.contact-field-option{list-style:none!important;margin:0!important;padding:0!important}
+.contactForm .contact-field-item .contact-field-element ul.list-checkbox-wrap li.contact-field-option .form-field-checkbox,.contactForm .contact-field-item .contact-field-element ul.list-radio-wrap li.contact-field-option .form-field-radio{margin:0 10px 0 0}
+.contactForm .contact-field-item .contact-field-element ul.list-checkbox-wrap li.contact-field-option label,.contactForm .contact-field-item .contact-field-element ul.list-radio-wrap li.contact-field-option label{margin:0;font-weight:400}
+.contactForm .contact-field-item .form-field-copy,.contactForm .contact-field-item .form-field-newsletter{margin:0 10px 0 0}
+.contactForm .contact-field-item .contact-field-help{font-size:85%}
+.contactForm .gdpr_policy input{margin:0 10px 0 0;transition:border-color .4s,box-shadow .4s}
+.contactForm .gdpr_policy label{display:inline}
+.contactForm .g-recaptcha{margin-bottom:10px}
+.contactForm #contact-captcha-error{margin-top:-10px;margin-bottom:10px}
+.contactForm .form-submit-button{background:#ddd;padding:5px 10px;border:none;margin:0;font-weight:700;cursor:pointer;transition:background .4s,color .4s}
+.contactForm .form-submit-button:hover{background:#bbb}
+.contactForm label{display: inline-block !important;}
+.contactForm ~ .sendConfirm{background:#eee;color:#666;padding:10px 15px}
+.list_activcampaign .fa-pen-square, .list_activcampaign .fa-times, .list_activcampaign .fa-check { font-size: 2.2em;}
+.list_activcampaign .fa-times { color: #d52128; }
+.list_activcampaign .fa-check { color: #CCC; }
+.list_activcampaign .fa-pen-square:before { content: "\f14b"; }
+.list_activcampaign .fa-times:before { content: "\f00d"; }
+.list_activcampaign .fa-check:before { content: "\f00c"; }
+.list_activcampaign li {padding: 10px 0 10px 10px; height: auto !important; padding-bottom: 10px !important; line-height: 2em;}
+.list_activcampaign a { margin-right: 10px; }
+.list_activcampaign a.list_active .fa { color: #4CAF50; }
+@media (max-width: 480px) {
+    .contactForm .g-recaptcha { position: relative; z-index: 2; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    section.content .contactForm .contact-submit { float: none; }
+}

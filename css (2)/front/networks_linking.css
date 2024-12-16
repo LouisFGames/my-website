@@ -1,0 +1,14 @@
+.networks_linking{position:relative}
+.networks_linking a{display:inline-block;font-size:1em;line-height:2em;width:2em;border-radius:50%;background:#eee;color:#333;text-align:center;text-decoration:none;margin-left:5px;transition:background .4s,color .4s}
+.networks_linking a:first-child{margin-left:0}
+.networks_linking a.networks_facebook:hover{background:#3b5998;color:#fff}
+.networks_linking a.networks_twitter:hover{background:#1da1f2;color:#fff}
+.networks_linking a.networks_google:hover{background:#db4437;color:#fff}
+.networks_linking a.networks_instagram:hover{background:#c32aa3;color:#fff}
+.networks_linking a.networks_pinterest:hover{background:#bd081c;color:#fff}
+.networks_linking a.networks_linkedin:hover{background:#007bb5;color:#fff}
+.networks_linking a.networks_tripadvisor:hover{background:#00af87;color:#fff}
+.networks_linking a.networks_youtube:hover{background:red;color:#fff}
+.networks_linking a.networks_tiktok:hover{background:#ff0050;color:#fff}
+.networks_linking a.networks_facebook-messenger:hover{background:#00B2FF;color:#fff}
+.networks_linking a.networks_whatsapp:hover{background:#25D366;color:#fff}

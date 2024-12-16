@@ -1,0 +1,277 @@
+/*--------------------------------------------------
+>> TABLE OF CONTENTS:
+----------------------------------------------------
+# Contact
+# Gallery
+# Restaurant
+--------------------------------------------------*/
+
+/*--------------------------------------------------
+# Contact
+--------------------------------------------------*/
+.contactForm .contact-field-item .contact-field-element .form-field {
+    color: #999;
+    background: #fff;
+    border: 1px solid #dedede;
+	padding: 5px 15px;
+	line-height: 2em;
+	border-radius: 4px;
+	transition: color .4s, border-color .4s;
+}
+.contactForm .contact-field-item .contact-field-element .form-field:focus {
+	color: #403a3a;
+    border-color: #b5b5b5;
+}
+.contactForm .gdpr_policy {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.contactForm .gdpr_policy input {
+	vertical-align: sub;
+}
+.contactForm .gdpr_policy label {
+	font-weight: normal;
+}
+.contactForm .gdpr_policy label a {
+}
+.contactForm .g-recaptcha {
+	text-align: center;
+}
+.contactForm .g-recaptcha > div {
+	margin: 0 auto;
+}
+.contactForm .contact-submit {
+	position: relative;
+	text-align: center;
+}
+.contactForm .form-submit-button {
+    text-transform: uppercase;
+    line-height: 1em;
+    background: #c2160c;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+}
+.contactForm .form-submit-button:hover {
+    background: #000;
+	color:#fff;
+}
+.contactForm .grecaptcha-badge {
+	bottom: 30px !important;
+	z-index: 100;
+}
+
+/*--------------------------------------------------
+# Gallery
+--------------------------------------------------*/
+.holder {
+    margin: 0 0 14px;
+    text-align: left;
+}
+.holder a {
+	font-size: 14px;
+	line-height: 2em;
+	min-width: 2em;
+	border-radius: 4px;
+	background: #18161a;
+	color: #fff;
+	transition: background .4s, color .4s;
+}
+.holder a.jp-current, .holder a.jp-current:hover, .holder a:hover {
+    background: #c2160c;
+    color: #000;
+}
+.holder a.jp-disabled, .holder a.jp-disabled:hover {
+    background: #3c3c3b;
+    color: #fff;
+}
+.holder a.jp-previous::before,
+.holder a.jp-next::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+}
+.mcePxmGallery .highslide-gallery {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+}
+.mcePxmGallery .highslide-gallery .highslideContainer {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.mcePxmGallery .highslide-gallery .highslideContainer.subgallery a.highslide .folderBackground span {
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	top: auto;
+	bottom: 5px;
+	border-radius: 4px;
+	background: #164b33;
+	text-align: center;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 10px;
+	transition: background .4s;
+}
+.mcePxmGallery .highslide-gallery .highslideContainer.subgallery:hover a.highslide .folderBackground span {
+	background: #202020;
+}
+.mcePxmGallery .highslide-gallery .highslideContainer a.highslide {
+	position: relative;
+	display: block;
+	transition: opacity .4s;
+}
+.mcePxmGallery .highslide-gallery .highslideContainer a.highslide img {
+	border: none;
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: transform 1s;
+}
+.mcePxmGallery .highslide-gallery .highslideContainer a.highslide:hover img {
+	transform: scale(1.2);
+}
+
+@media only screen and (max-width : 768px) {
+	.mcePxmGallery .highslide-gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.mcePxmGallery .highslide-gallery .highslideContainer.subgallery a.highslide .folderBackground span {
+		right: 0;
+		padding: 5px 15px;
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width : 640px) {
+}
+@media only screen and (max-width : 480px) {
+}
+
+/* Breadcrumbs */
+.mcePxmGallery .breadcrumb {
+	position: relative;
+	float: none;
+	text-align: center;
+	border: none;
+	height: 27px;
+	line-height: 27px;
+	font-weight: normal;
+	padding: 0 10px;
+	color: #999;
+	border-radius: 0;
+}
+.mcePxmGallery .breadcrumb span {
+	font-size: 0;
+}
+.mcePxmGallery .breadcrumb span::before {
+	content: '\f105';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+	font-size: 14px;
+	margin: 0 5px;
+}
+.mcePxmGallery .breadcrumb a {
+	text-decoration: none;
+	-webkit-transition: color 0.6s;
+    transition: color 0.6s;
+}
+.mcePxmGallery .breadcrumb a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+/* Back button */
+.mcePxmGallery .backbtn {
+	background: none;
+	text-indent: 0;
+	font-size: 0;
+	text-decoration: none;
+    color: #fff;
+	width: auto;
+	height: auto;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.mcePxmGallery .backbtn::after {
+	content: '\f100';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	padding: 4px 10px;
+	border-radius: 0;
+	background: #164b33;
+	border-radius: 4px;
+	transition: background .4s;
+}
+.mcePxmGallery .backbtn:hover {
+	text-decoration: none;
+}
+.mcePxmGallery .backbtn:hover::after {
+	background: #164b33;
+}
+
+/* Pop Up */
+.highslide-container .highslide-caption {
+    font-size: 18px !important;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    background: #000000fa !important;
+    padding: 0 0px 17px 0 !important;
+    line-height: 17px !important;
+}
+.highslide-container .highslide-caption strong {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.highslide-container .highslide-dimming{
+	background: rgba(0,0,0,.5);
+	opacity: 1!important;
+}
+.highslide-wrapper, .highslide-outline,
+.highslide-container table, .highslide-container td {
+	background: none!important;
+}
+.highslide-container img.highslide-image,
+.highslide-container .highslide-image {
+	border: 0px!important;
+	box-shadow: 0px 0px 20px #000;
+}
+
+/*--------------------------------------------------
+# Restaurant
+--------------------------------------------------*/
+.resto-reservation {
+	background: #f6f6f6;
+	margin-top: 30px;
+}
+.resto-reservation .resto-reservation-steps .resto-reservation-step > .resto-reservation-dot,
+.resto-reservation .resto-reservation-steps .resto-reservation-step > .step-progress > .step-bar {
+	background: #f7a00d;
+}
+.resto-reservation .resto-reservation-content .resto-field-label {
+	color: #f7a00d;
+}
+.resto-reservation .resto-reservation-content .resto-field-label .fa.fa-clock-o::before {
+	content: "\f017";
+}
+.resto-reservation .resto-reservation-content .resto-btn {
+	background: #f7a00d;
+	border-radius: 5px;
+}
+.resto-reservation .resto-reservation-content .resto-btn:hover {
+    background: #ab6f09;
+}
